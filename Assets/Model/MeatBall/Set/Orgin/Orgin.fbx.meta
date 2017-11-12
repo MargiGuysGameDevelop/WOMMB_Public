@@ -1,0 +1,1506 @@
+fileFormatVersion: 2
+guid: 158905093d656ee458fd47891257f810
+timeCreated: 1488494748
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: amerture
+    100002: arm_1_L
+    100004: arm_1_R
+    100006: arm_2_L
+    100008: arm_2_R
+    100010: arm_IK_L
+    100012: arm_IK_L_end
+    100014: arm_IK_R
+    100016: arm_IK_R_end
+    100018: arm_pole_L
+    100020: arm_pole_L_end
+    100022: arm_pole_R
+    100024: arm_pole_R_end
+    100026: body
+    100028: cloak
+    100030: cloak_end
+    100032: eye_L
+    100034: eye_L_end
+    100036: eye_R
+    100038: eye_R_end
+    100040: eyeL
+    100042: eyeR
+    100044: feet_L
+    100046: feet_L_end
+    100048: feet_pole_L
+    100050: feet_pole_L_end
+    100052: feet_pole_R
+    100054: feet_pole_R_end
+    100056: feet_R
+    100058: feet_R_end
+    100060: hand_L
+    100062: hand_L_end
+    100064: hand_R
+    100066: hand_R_end
+    100068: handandleg
+    100070: hat
+    100072: hat_end
+    100074: leg_1_L
+    100076: leg_1_R
+    100078: leg_2_L
+    100080: leg_2_R
+    100082: leg_IK_L
+    100084: leg_IK_L_end
+    100086: leg_IK_R
+    100088: leg_IK_R_end
+    100090: meatball03
+    100092: mouse
+    100094: mouth
+    100096: mouth_end
+    100098: //RootNode
+    100100: root
+    100102: weapon_IK_L
+    100104: weapon_IK_R
+    400000: amerture
+    400002: arm_1_L
+    400004: arm_1_R
+    400006: arm_2_L
+    400008: arm_2_R
+    400010: arm_IK_L
+    400012: arm_IK_L_end
+    400014: arm_IK_R
+    400016: arm_IK_R_end
+    400018: arm_pole_L
+    400020: arm_pole_L_end
+    400022: arm_pole_R
+    400024: arm_pole_R_end
+    400026: body
+    400028: cloak
+    400030: cloak_end
+    400032: eye_L
+    400034: eye_L_end
+    400036: eye_R
+    400038: eye_R_end
+    400040: eyeL
+    400042: eyeR
+    400044: feet_L
+    400046: feet_L_end
+    400048: feet_pole_L
+    400050: feet_pole_L_end
+    400052: feet_pole_R
+    400054: feet_pole_R_end
+    400056: feet_R
+    400058: feet_R_end
+    400060: hand_L
+    400062: hand_L_end
+    400064: hand_R
+    400066: hand_R_end
+    400068: handandleg
+    400070: hat
+    400072: hat_end
+    400074: leg_1_L
+    400076: leg_1_R
+    400078: leg_2_L
+    400080: leg_2_R
+    400082: leg_IK_L
+    400084: leg_IK_L_end
+    400086: leg_IK_R
+    400088: leg_IK_R_end
+    400090: meatball03
+    400092: mouse
+    400094: mouth
+    400096: mouth_end
+    400098: //RootNode
+    400100: root
+    400102: weapon_IK_L
+    400104: weapon_IK_R
+    4300000: meatball03
+    4300002: eyeR
+    4300004: mouse
+    4300006: eyeL
+    4300008: handandleg
+    7400000: Stand
+    7400002: WalkForward
+    7400004: SingleAttack1
+    7400006: PerpareRolling
+    7400008: A32
+    7400010: A33
+    7400012: FierceRolling
+    7400014: SuperJump
+    7400016: SuperJumping
+    7400018: HundredPunch
+    9500000: //RootNode
+    13700000: eyeL
+    13700002: eyeR
+    13700004: handandleg
+    13700006: meatball03
+    13700008: mouse
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Stand
+      takeName: Stand
+      firstFrame: 0
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: amerture
+        weight: 1
+      - path: amerture/root
+        weight: 1
+      - path: amerture/root/arm_pole_L
+        weight: 1
+      - path: amerture/root/arm_pole_L/arm_pole_L_end
+        weight: 1
+      - path: amerture/root/arm_pole_R
+        weight: 1
+      - path: amerture/root/arm_pole_R/arm_pole_R_end
+        weight: 1
+      - path: amerture/root/body
+        weight: 1
+      - path: amerture/root/body/arm_1_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L/hand_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L/hand_L/hand_L_end
+        weight: 1
+      - path: amerture/root/body/arm_1_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R/hand_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R/hand_R/hand_R_end
+        weight: 1
+      - path: amerture/root/body/cloak
+        weight: 1
+      - path: amerture/root/body/cloak/cloak_end
+        weight: 1
+      - path: amerture/root/body/eye_L
+        weight: 1
+      - path: amerture/root/body/eye_L/eye_L_end
+        weight: 1
+      - path: amerture/root/body/eye_R
+        weight: 1
+      - path: amerture/root/body/eye_R/eye_R_end
+        weight: 1
+      - path: amerture/root/body/hat
+        weight: 1
+      - path: amerture/root/body/hat/hat_end
+        weight: 1
+      - path: amerture/root/body/leg_1_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L/feet_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L/feet_L/feet_L_end
+        weight: 1
+      - path: amerture/root/body/leg_1_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R/feet_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R/feet_R/feet_R_end
+        weight: 1
+      - path: amerture/root/body/mouth
+        weight: 1
+      - path: amerture/root/body/mouth/mouth_end
+        weight: 1
+      - path: amerture/root/feet_pole_L
+        weight: 1
+      - path: amerture/root/feet_pole_L/feet_pole_L_end
+        weight: 1
+      - path: amerture/root/feet_pole_R
+        weight: 1
+      - path: amerture/root/feet_pole_R/feet_pole_R_end
+        weight: 1
+      - path: amerture/root/leg_IK_L
+        weight: 1
+      - path: amerture/root/leg_IK_L/leg_IK_L_end
+        weight: 1
+      - path: amerture/root/leg_IK_R
+        weight: 1
+      - path: amerture/root/leg_IK_R/leg_IK_R_end
+        weight: 1
+      - path: amerture/root/weapon_IK_L
+        weight: 1
+      - path: amerture/root/weapon_IK_L/arm_IK_L
+        weight: 1
+      - path: amerture/root/weapon_IK_L/arm_IK_L/arm_IK_L_end
+        weight: 1
+      - path: amerture/root/weapon_IK_R
+        weight: 1
+      - path: amerture/root/weapon_IK_R/arm_IK_R
+        weight: 1
+      - path: amerture/root/weapon_IK_R/arm_IK_R/arm_IK_R_end
+        weight: 1
+      - path: eyeL
+        weight: 1
+      - path: eyeR
+        weight: 1
+      - path: handandleg
+        weight: 1
+      - path: meatball03
+        weight: 1
+      - path: mouse
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WalkForward
+      takeName: WalkForward
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: amerture
+        weight: 1
+      - path: amerture/root
+        weight: 1
+      - path: amerture/root/arm_pole_L
+        weight: 1
+      - path: amerture/root/arm_pole_L/arm_pole_L_end
+        weight: 1
+      - path: amerture/root/arm_pole_R
+        weight: 1
+      - path: amerture/root/arm_pole_R/arm_pole_R_end
+        weight: 1
+      - path: amerture/root/body
+        weight: 1
+      - path: amerture/root/body/arm_1_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L/hand_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L/hand_L/hand_L_end
+        weight: 1
+      - path: amerture/root/body/arm_1_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R/hand_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R/hand_R/hand_R_end
+        weight: 1
+      - path: amerture/root/body/cloak
+        weight: 1
+      - path: amerture/root/body/cloak/cloak_end
+        weight: 1
+      - path: amerture/root/body/eye_L
+        weight: 1
+      - path: amerture/root/body/eye_L/eye_L_end
+        weight: 1
+      - path: amerture/root/body/eye_R
+        weight: 1
+      - path: amerture/root/body/eye_R/eye_R_end
+        weight: 1
+      - path: amerture/root/body/hat
+        weight: 1
+      - path: amerture/root/body/hat/hat_end
+        weight: 1
+      - path: amerture/root/body/leg_1_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L/feet_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L/feet_L/feet_L_end
+        weight: 1
+      - path: amerture/root/body/leg_1_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R/feet_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R/feet_R/feet_R_end
+        weight: 1
+      - path: amerture/root/body/mouth
+        weight: 1
+      - path: amerture/root/body/mouth/mouth_end
+        weight: 1
+      - path: amerture/root/feet_pole_L
+        weight: 1
+      - path: amerture/root/feet_pole_L/feet_pole_L_end
+        weight: 1
+      - path: amerture/root/feet_pole_R
+        weight: 1
+      - path: amerture/root/feet_pole_R/feet_pole_R_end
+        weight: 1
+      - path: amerture/root/leg_IK_L
+        weight: 1
+      - path: amerture/root/leg_IK_L/leg_IK_L_end
+        weight: 1
+      - path: amerture/root/leg_IK_R
+        weight: 1
+      - path: amerture/root/leg_IK_R/leg_IK_R_end
+        weight: 1
+      - path: amerture/root/weapon_IK_L
+        weight: 1
+      - path: amerture/root/weapon_IK_L/arm_IK_L
+        weight: 1
+      - path: amerture/root/weapon_IK_L/arm_IK_L/arm_IK_L_end
+        weight: 1
+      - path: amerture/root/weapon_IK_R
+        weight: 1
+      - path: amerture/root/weapon_IK_R/arm_IK_R
+        weight: 1
+      - path: amerture/root/weapon_IK_R/arm_IK_R/arm_IK_R_end
+        weight: 1
+      - path: eyeL
+        weight: 1
+      - path: eyeR
+        weight: 1
+      - path: handandleg
+        weight: 1
+      - path: meatball03
+        weight: 1
+      - path: mouse
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SingleAttack1
+      takeName: SingleAttack1
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.4404762
+        functionName: LaunchProjection
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: amerture
+        weight: 1
+      - path: amerture/root
+        weight: 1
+      - path: amerture/root/arm_pole_L
+        weight: 1
+      - path: amerture/root/arm_pole_L/arm_pole_L_end
+        weight: 1
+      - path: amerture/root/arm_pole_R
+        weight: 1
+      - path: amerture/root/arm_pole_R/arm_pole_R_end
+        weight: 1
+      - path: amerture/root/body
+        weight: 1
+      - path: amerture/root/body/arm_1_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L/hand_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L/hand_L/hand_L_end
+        weight: 1
+      - path: amerture/root/body/arm_1_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R/hand_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R/hand_R/hand_R_end
+        weight: 1
+      - path: amerture/root/body/cloak
+        weight: 1
+      - path: amerture/root/body/cloak/cloak_end
+        weight: 1
+      - path: amerture/root/body/eye_L
+        weight: 1
+      - path: amerture/root/body/eye_L/eye_L_end
+        weight: 1
+      - path: amerture/root/body/eye_R
+        weight: 1
+      - path: amerture/root/body/eye_R/eye_R_end
+        weight: 1
+      - path: amerture/root/body/hat
+        weight: 1
+      - path: amerture/root/body/hat/hat_end
+        weight: 1
+      - path: amerture/root/body/leg_1_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L/feet_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L/feet_L/feet_L_end
+        weight: 1
+      - path: amerture/root/body/leg_1_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R/feet_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R/feet_R/feet_R_end
+        weight: 1
+      - path: amerture/root/body/mouth
+        weight: 1
+      - path: amerture/root/body/mouth/mouth_end
+        weight: 1
+      - path: amerture/root/feet_pole_L
+        weight: 1
+      - path: amerture/root/feet_pole_L/feet_pole_L_end
+        weight: 1
+      - path: amerture/root/feet_pole_R
+        weight: 1
+      - path: amerture/root/feet_pole_R/feet_pole_R_end
+        weight: 1
+      - path: amerture/root/leg_IK_L
+        weight: 1
+      - path: amerture/root/leg_IK_L/leg_IK_L_end
+        weight: 1
+      - path: amerture/root/leg_IK_R
+        weight: 1
+      - path: amerture/root/leg_IK_R/leg_IK_R_end
+        weight: 1
+      - path: amerture/root/weapon_IK_L
+        weight: 1
+      - path: amerture/root/weapon_IK_L/arm_IK_L
+        weight: 1
+      - path: amerture/root/weapon_IK_L/arm_IK_L/arm_IK_L_end
+        weight: 1
+      - path: amerture/root/weapon_IK_R
+        weight: 1
+      - path: amerture/root/weapon_IK_R/arm_IK_R
+        weight: 1
+      - path: amerture/root/weapon_IK_R/arm_IK_R/arm_IK_R_end
+        weight: 1
+      - path: eyeL
+        weight: 1
+      - path: eyeR
+        weight: 1
+      - path: handandleg
+        weight: 1
+      - path: meatball03
+        weight: 1
+      - path: mouse
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: A32
+      takeName: A32
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.44444445
+        functionName: LaunchProjection
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: amerture
+        weight: 1
+      - path: amerture/root
+        weight: 1
+      - path: amerture/root/arm_pole_L
+        weight: 1
+      - path: amerture/root/arm_pole_L/arm_pole_L_end
+        weight: 1
+      - path: amerture/root/arm_pole_R
+        weight: 1
+      - path: amerture/root/arm_pole_R/arm_pole_R_end
+        weight: 1
+      - path: amerture/root/body
+        weight: 1
+      - path: amerture/root/body/arm_1_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L/hand_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L/hand_L/hand_L_end
+        weight: 1
+      - path: amerture/root/body/arm_1_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R/hand_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R/hand_R/hand_R_end
+        weight: 1
+      - path: amerture/root/body/cloak
+        weight: 1
+      - path: amerture/root/body/cloak/cloak_end
+        weight: 1
+      - path: amerture/root/body/eye_L
+        weight: 1
+      - path: amerture/root/body/eye_L/eye_L_end
+        weight: 1
+      - path: amerture/root/body/eye_R
+        weight: 1
+      - path: amerture/root/body/eye_R/eye_R_end
+        weight: 1
+      - path: amerture/root/body/hat
+        weight: 1
+      - path: amerture/root/body/hat/hat_end
+        weight: 1
+      - path: amerture/root/body/leg_1_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L/feet_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L/feet_L/feet_L_end
+        weight: 1
+      - path: amerture/root/body/leg_1_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R/feet_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R/feet_R/feet_R_end
+        weight: 1
+      - path: amerture/root/body/mouth
+        weight: 1
+      - path: amerture/root/body/mouth/mouth_end
+        weight: 1
+      - path: amerture/root/feet_pole_L
+        weight: 1
+      - path: amerture/root/feet_pole_L/feet_pole_L_end
+        weight: 1
+      - path: amerture/root/feet_pole_R
+        weight: 1
+      - path: amerture/root/feet_pole_R/feet_pole_R_end
+        weight: 1
+      - path: amerture/root/leg_IK_L
+        weight: 1
+      - path: amerture/root/leg_IK_L/leg_IK_L_end
+        weight: 1
+      - path: amerture/root/leg_IK_R
+        weight: 1
+      - path: amerture/root/leg_IK_R/leg_IK_R_end
+        weight: 1
+      - path: amerture/root/weapon_IK_L
+        weight: 1
+      - path: amerture/root/weapon_IK_L/arm_IK_L
+        weight: 1
+      - path: amerture/root/weapon_IK_L/arm_IK_L/arm_IK_L_end
+        weight: 1
+      - path: amerture/root/weapon_IK_R
+        weight: 1
+      - path: amerture/root/weapon_IK_R/arm_IK_R
+        weight: 1
+      - path: amerture/root/weapon_IK_R/arm_IK_R/arm_IK_R_end
+        weight: 1
+      - path: eyeL
+        weight: 1
+      - path: eyeR
+        weight: 1
+      - path: handandleg
+        weight: 1
+      - path: meatball03
+        weight: 1
+      - path: mouse
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: A33
+      takeName: A33
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Curve
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 2
+            time: 0
+            value: 0
+            inSlope: 1.0499865
+            outSlope: 1.0499865
+            tangentMode: 34
+          - serializedVersion: 2
+            time: 0.76480687
+            value: 0.80303687
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - serializedVersion: 2
+            time: 1.0000129
+            value: 1.05
+            inSlope: 1.0499865
+            outSlope: 1.0499865
+            tangentMode: 34
+          preInfinity: 2
+          postInfinity: 2
+          rotationOrder: 0
+      events:
+      - time: 0.09126984
+        functionName: LaunchProjection
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: amerture
+        weight: 1
+      - path: amerture/root
+        weight: 1
+      - path: amerture/root/arm_pole_L
+        weight: 1
+      - path: amerture/root/arm_pole_L/arm_pole_L_end
+        weight: 1
+      - path: amerture/root/arm_pole_R
+        weight: 1
+      - path: amerture/root/arm_pole_R/arm_pole_R_end
+        weight: 1
+      - path: amerture/root/body
+        weight: 1
+      - path: amerture/root/body/arm_1_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L/hand_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L/hand_L/hand_L_end
+        weight: 1
+      - path: amerture/root/body/arm_1_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R/hand_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R/hand_R/hand_R_end
+        weight: 1
+      - path: amerture/root/body/cloak
+        weight: 1
+      - path: amerture/root/body/cloak/cloak_end
+        weight: 1
+      - path: amerture/root/body/eye_L
+        weight: 1
+      - path: amerture/root/body/eye_L/eye_L_end
+        weight: 1
+      - path: amerture/root/body/eye_R
+        weight: 1
+      - path: amerture/root/body/eye_R/eye_R_end
+        weight: 1
+      - path: amerture/root/body/hat
+        weight: 1
+      - path: amerture/root/body/hat/hat_end
+        weight: 1
+      - path: amerture/root/body/leg_1_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L/feet_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L/feet_L/feet_L_end
+        weight: 1
+      - path: amerture/root/body/leg_1_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R/feet_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R/feet_R/feet_R_end
+        weight: 1
+      - path: amerture/root/body/mouth
+        weight: 1
+      - path: amerture/root/body/mouth/mouth_end
+        weight: 1
+      - path: amerture/root/feet_pole_L
+        weight: 1
+      - path: amerture/root/feet_pole_L/feet_pole_L_end
+        weight: 1
+      - path: amerture/root/feet_pole_R
+        weight: 1
+      - path: amerture/root/feet_pole_R/feet_pole_R_end
+        weight: 1
+      - path: amerture/root/leg_IK_L
+        weight: 1
+      - path: amerture/root/leg_IK_L/leg_IK_L_end
+        weight: 1
+      - path: amerture/root/leg_IK_R
+        weight: 1
+      - path: amerture/root/leg_IK_R/leg_IK_R_end
+        weight: 1
+      - path: amerture/root/weapon_IK_L
+        weight: 1
+      - path: amerture/root/weapon_IK_L/arm_IK_L
+        weight: 1
+      - path: amerture/root/weapon_IK_L/arm_IK_L/arm_IK_L_end
+        weight: 1
+      - path: amerture/root/weapon_IK_R
+        weight: 1
+      - path: amerture/root/weapon_IK_R/arm_IK_R
+        weight: 1
+      - path: amerture/root/weapon_IK_R/arm_IK_R/arm_IK_R_end
+        weight: 1
+      - path: eyeL
+        weight: 1
+      - path: eyeR
+        weight: 1
+      - path: handandleg
+        weight: 1
+      - path: meatball03
+        weight: 1
+      - path: mouse
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FierceRolling
+      takeName: FierceRolling
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.18253967
+        functionName: LaunchProjection
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: amerture
+        weight: 1
+      - path: amerture/root
+        weight: 1
+      - path: amerture/root/arm_pole_L
+        weight: 1
+      - path: amerture/root/arm_pole_L/arm_pole_L_end
+        weight: 1
+      - path: amerture/root/arm_pole_R
+        weight: 1
+      - path: amerture/root/arm_pole_R/arm_pole_R_end
+        weight: 1
+      - path: amerture/root/body
+        weight: 1
+      - path: amerture/root/body/arm_1_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L/hand_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L/hand_L/hand_L_end
+        weight: 1
+      - path: amerture/root/body/arm_1_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R/hand_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R/hand_R/hand_R_end
+        weight: 1
+      - path: amerture/root/body/cloak
+        weight: 1
+      - path: amerture/root/body/cloak/cloak_end
+        weight: 1
+      - path: amerture/root/body/eye_L
+        weight: 1
+      - path: amerture/root/body/eye_L/eye_L_end
+        weight: 1
+      - path: amerture/root/body/eye_R
+        weight: 1
+      - path: amerture/root/body/eye_R/eye_R_end
+        weight: 1
+      - path: amerture/root/body/hat
+        weight: 1
+      - path: amerture/root/body/hat/hat_end
+        weight: 1
+      - path: amerture/root/body/leg_1_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L/feet_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L/feet_L/feet_L_end
+        weight: 1
+      - path: amerture/root/body/leg_1_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R/feet_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R/feet_R/feet_R_end
+        weight: 1
+      - path: amerture/root/body/mouth
+        weight: 1
+      - path: amerture/root/body/mouth/mouth_end
+        weight: 1
+      - path: amerture/root/feet_pole_L
+        weight: 1
+      - path: amerture/root/feet_pole_L/feet_pole_L_end
+        weight: 1
+      - path: amerture/root/feet_pole_R
+        weight: 1
+      - path: amerture/root/feet_pole_R/feet_pole_R_end
+        weight: 1
+      - path: amerture/root/leg_IK_L
+        weight: 1
+      - path: amerture/root/leg_IK_L/leg_IK_L_end
+        weight: 1
+      - path: amerture/root/leg_IK_R
+        weight: 1
+      - path: amerture/root/leg_IK_R/leg_IK_R_end
+        weight: 1
+      - path: amerture/root/weapon_IK_L
+        weight: 1
+      - path: amerture/root/weapon_IK_L/arm_IK_L
+        weight: 1
+      - path: amerture/root/weapon_IK_L/arm_IK_L/arm_IK_L_end
+        weight: 1
+      - path: amerture/root/weapon_IK_R
+        weight: 1
+      - path: amerture/root/weapon_IK_R/arm_IK_R
+        weight: 1
+      - path: amerture/root/weapon_IK_R/arm_IK_R/arm_IK_R_end
+        weight: 1
+      - path: eyeL
+        weight: 1
+      - path: eyeR
+        weight: 1
+      - path: handandleg
+        weight: 1
+      - path: meatball03
+        weight: 1
+      - path: mouse
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SuperJump
+      takeName: SuperJump
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.103174604
+        functionName: LaunchProjection
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: amerture
+        weight: 1
+      - path: amerture/root
+        weight: 1
+      - path: amerture/root/arm_pole_L
+        weight: 1
+      - path: amerture/root/arm_pole_L/arm_pole_L_end
+        weight: 1
+      - path: amerture/root/arm_pole_R
+        weight: 1
+      - path: amerture/root/arm_pole_R/arm_pole_R_end
+        weight: 1
+      - path: amerture/root/body
+        weight: 1
+      - path: amerture/root/body/arm_1_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L/hand_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L/hand_L/hand_L_end
+        weight: 1
+      - path: amerture/root/body/arm_1_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R/hand_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R/hand_R/hand_R_end
+        weight: 1
+      - path: amerture/root/body/cloak
+        weight: 1
+      - path: amerture/root/body/cloak/cloak_end
+        weight: 1
+      - path: amerture/root/body/eye_L
+        weight: 1
+      - path: amerture/root/body/eye_L/eye_L_end
+        weight: 1
+      - path: amerture/root/body/eye_R
+        weight: 1
+      - path: amerture/root/body/eye_R/eye_R_end
+        weight: 1
+      - path: amerture/root/body/hat
+        weight: 1
+      - path: amerture/root/body/hat/hat_end
+        weight: 1
+      - path: amerture/root/body/leg_1_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L/feet_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L/feet_L/feet_L_end
+        weight: 1
+      - path: amerture/root/body/leg_1_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R/feet_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R/feet_R/feet_R_end
+        weight: 1
+      - path: amerture/root/body/mouth
+        weight: 1
+      - path: amerture/root/body/mouth/mouth_end
+        weight: 1
+      - path: amerture/root/feet_pole_L
+        weight: 1
+      - path: amerture/root/feet_pole_L/feet_pole_L_end
+        weight: 1
+      - path: amerture/root/feet_pole_R
+        weight: 1
+      - path: amerture/root/feet_pole_R/feet_pole_R_end
+        weight: 1
+      - path: amerture/root/leg_IK_L
+        weight: 1
+      - path: amerture/root/leg_IK_L/leg_IK_L_end
+        weight: 1
+      - path: amerture/root/leg_IK_R
+        weight: 1
+      - path: amerture/root/leg_IK_R/leg_IK_R_end
+        weight: 1
+      - path: amerture/root/weapon_IK_L
+        weight: 1
+      - path: amerture/root/weapon_IK_L/arm_IK_L
+        weight: 1
+      - path: amerture/root/weapon_IK_L/arm_IK_L/arm_IK_L_end
+        weight: 1
+      - path: amerture/root/weapon_IK_R
+        weight: 1
+      - path: amerture/root/weapon_IK_R/arm_IK_R
+        weight: 1
+      - path: amerture/root/weapon_IK_R/arm_IK_R/arm_IK_R_end
+        weight: 1
+      - path: eyeL
+        weight: 1
+      - path: eyeR
+        weight: 1
+      - path: handandleg
+        weight: 1
+      - path: meatball03
+        weight: 1
+      - path: mouse
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SuperJumping
+      takeName: SuperJumping
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.34920636
+        functionName: LaunchProjection
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: amerture
+        weight: 1
+      - path: amerture/root
+        weight: 1
+      - path: amerture/root/arm_pole_L
+        weight: 1
+      - path: amerture/root/arm_pole_L/arm_pole_L_end
+        weight: 1
+      - path: amerture/root/arm_pole_R
+        weight: 1
+      - path: amerture/root/arm_pole_R/arm_pole_R_end
+        weight: 1
+      - path: amerture/root/body
+        weight: 1
+      - path: amerture/root/body/arm_1_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L/hand_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L/hand_L/hand_L_end
+        weight: 1
+      - path: amerture/root/body/arm_1_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R/hand_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R/hand_R/hand_R_end
+        weight: 1
+      - path: amerture/root/body/cloak
+        weight: 1
+      - path: amerture/root/body/cloak/cloak_end
+        weight: 1
+      - path: amerture/root/body/eye_L
+        weight: 1
+      - path: amerture/root/body/eye_L/eye_L_end
+        weight: 1
+      - path: amerture/root/body/eye_R
+        weight: 1
+      - path: amerture/root/body/eye_R/eye_R_end
+        weight: 1
+      - path: amerture/root/body/hat
+        weight: 1
+      - path: amerture/root/body/hat/hat_end
+        weight: 1
+      - path: amerture/root/body/leg_1_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L/feet_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L/feet_L/feet_L_end
+        weight: 1
+      - path: amerture/root/body/leg_1_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R/feet_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R/feet_R/feet_R_end
+        weight: 1
+      - path: amerture/root/body/mouth
+        weight: 1
+      - path: amerture/root/body/mouth/mouth_end
+        weight: 1
+      - path: amerture/root/feet_pole_L
+        weight: 1
+      - path: amerture/root/feet_pole_L/feet_pole_L_end
+        weight: 1
+      - path: amerture/root/feet_pole_R
+        weight: 1
+      - path: amerture/root/feet_pole_R/feet_pole_R_end
+        weight: 1
+      - path: amerture/root/leg_IK_L
+        weight: 1
+      - path: amerture/root/leg_IK_L/leg_IK_L_end
+        weight: 1
+      - path: amerture/root/leg_IK_R
+        weight: 1
+      - path: amerture/root/leg_IK_R/leg_IK_R_end
+        weight: 1
+      - path: amerture/root/weapon_IK_L
+        weight: 1
+      - path: amerture/root/weapon_IK_L/arm_IK_L
+        weight: 1
+      - path: amerture/root/weapon_IK_L/arm_IK_L/arm_IK_L_end
+        weight: 1
+      - path: amerture/root/weapon_IK_R
+        weight: 1
+      - path: amerture/root/weapon_IK_R/arm_IK_R
+        weight: 1
+      - path: amerture/root/weapon_IK_R/arm_IK_R/arm_IK_R_end
+        weight: 1
+      - path: eyeL
+        weight: 1
+      - path: eyeR
+        weight: 1
+      - path: handandleg
+        weight: 1
+      - path: meatball03
+        weight: 1
+      - path: mouse
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HundredPunch
+      takeName: HundredPunch
+      firstFrame: 0
+      lastFrame: 122
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.115079366
+        functionName: LaunchProjection
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.65476185
+        functionName: LaunchProjection
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.3611111
+        functionName: LaunchProjection
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.88095236
+        functionName: LaunchProjection
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: amerture
+        weight: 1
+      - path: amerture/root
+        weight: 1
+      - path: amerture/root/arm_pole_L
+        weight: 1
+      - path: amerture/root/arm_pole_L/arm_pole_L_end
+        weight: 1
+      - path: amerture/root/arm_pole_R
+        weight: 1
+      - path: amerture/root/arm_pole_R/arm_pole_R_end
+        weight: 1
+      - path: amerture/root/body
+        weight: 1
+      - path: amerture/root/body/arm_1_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L/hand_L
+        weight: 1
+      - path: amerture/root/body/arm_1_L/arm_2_L/hand_L/hand_L_end
+        weight: 1
+      - path: amerture/root/body/arm_1_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R/hand_R
+        weight: 1
+      - path: amerture/root/body/arm_1_R/arm_2_R/hand_R/hand_R_end
+        weight: 1
+      - path: amerture/root/body/cloak
+        weight: 1
+      - path: amerture/root/body/cloak/cloak_end
+        weight: 1
+      - path: amerture/root/body/eye_L
+        weight: 1
+      - path: amerture/root/body/eye_L/eye_L_end
+        weight: 1
+      - path: amerture/root/body/eye_R
+        weight: 1
+      - path: amerture/root/body/eye_R/eye_R_end
+        weight: 1
+      - path: amerture/root/body/hat
+        weight: 1
+      - path: amerture/root/body/hat/hat_end
+        weight: 1
+      - path: amerture/root/body/leg_1_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L/feet_L
+        weight: 1
+      - path: amerture/root/body/leg_1_L/leg_2_L/feet_L/feet_L_end
+        weight: 1
+      - path: amerture/root/body/leg_1_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R/feet_R
+        weight: 1
+      - path: amerture/root/body/leg_1_R/leg_2_R/feet_R/feet_R_end
+        weight: 1
+      - path: amerture/root/body/mouth
+        weight: 1
+      - path: amerture/root/body/mouth/mouth_end
+        weight: 1
+      - path: amerture/root/feet_pole_L
+        weight: 1
+      - path: amerture/root/feet_pole_L/feet_pole_L_end
+        weight: 1
+      - path: amerture/root/feet_pole_R
+        weight: 1
+      - path: amerture/root/feet_pole_R/feet_pole_R_end
+        weight: 1
+      - path: amerture/root/leg_IK_L
+        weight: 1
+      - path: amerture/root/leg_IK_L/leg_IK_L_end
+        weight: 1
+      - path: amerture/root/leg_IK_R
+        weight: 1
+      - path: amerture/root/leg_IK_R/leg_IK_R_end
+        weight: 1
+      - path: amerture/root/weapon_IK_L
+        weight: 1
+      - path: amerture/root/weapon_IK_L/arm_IK_L
+        weight: 1
+      - path: amerture/root/weapon_IK_L/arm_IK_L/arm_IK_L_end
+        weight: 1
+      - path: amerture/root/weapon_IK_R
+        weight: 1
+      - path: amerture/root/weapon_IK_R/arm_IK_R
+        weight: 1
+      - path: amerture/root/weapon_IK_R/arm_IK_R/arm_IK_R_end
+        weight: 1
+      - path: eyeL
+        weight: 1
+      - path: eyeR
+        weight: 1
+      - path: handandleg
+        weight: 1
+      - path: meatball03
+        weight: 1
+      - path: mouse
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: root
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 7ebc47699e72e0e4cb6e2606afc9781a,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
