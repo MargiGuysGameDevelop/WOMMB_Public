@@ -21,26 +21,69 @@ public class FirstLoginGroup : MyUnityUIGroup {
     /// <summary>
     /// 直接變更套裝列表
     /// </summary>
-    public List<MyUIElement> SetSelectElements {
+    public List<MyUIElementData> SetSelectElements {
         set { SetSelectUIs.Elements = value; }
+    }
+    /// <summary>
+    /// 技能圖式管理者
+    /// </summary>
+    [SerializeField]private MySkillUIPresent SkillsUI;
+
+    /// <summary>
+    /// 開始遊戲的按鈕
+    /// </summary>
+    public MyUnityUI BtnStartGame;
+
+    public override void Show()
+    {
+        base.Show();
     }
 
     /// <summary>
     /// 開始讀取套裝資料與其事件
     /// </summary>
     public void LoadData() {
-        List<MyUIElement> list = new List<MyUIElement>();
+        List<MyUIElementData> list = new List<MyUIElementData>();
         for (int i=0;i<initialSetList.Length ;i++)
         {
             MeatBallSet set = MeatBallSetFactory.Instance.GetSet(initialSetList[i]);
-            MyUIElement setElement = set.NewElement;
+            MyUIElementData setElement = set.NewElement;
             setElement.ButtonClickEvent = (_index, _extraData) =>
             {
+                //給貢丸換套裝
                 GameLogicManager.Instance.ChangeMainMeatBallSet(
                     MeatBallSetFactory.Instance.GetSetObject(set.Type));
+                //登入下方按鈕填入技能
+                MyUIElementData hatElement = null;
+                MyUIElementData suitElement = null;
+                MyUIElementData gloveElement = null;
+                MyUIElementData weaponElement = null;
+                if (set.Hat.Skill != null)
+                {
+                    hatElement = set.Hat.Skill.NewElementData;
+                }
+                if (set.Suit.Skill!=null) {
+                    suitElement = set.Suit.Skill.NewElementData;
+                }
+                if (set.Glove.Skill != null)
+                {
+                    gloveElement = set.Glove.Skill.NewElementData;
+                }
+                if (set.Weapon.Skill != null)
+                {
+                    weaponElement = set.Weapon.Skill.NewElementData;
+                }
+
+                SkillsUI.ChangeSkill((int)MeatBall.SetPartType.Hat, hatElement);
+                SkillsUI.ChangeSkill((int)MeatBall.SetPartType.Suit, suitElement);
+                SkillsUI.ChangeSkill((int)MeatBall.SetPartType.Glove, gloveElement);
+                SkillsUI.ChangeSkill((int)MeatBall.SetPartType.Weapon, weaponElement);
+
             };
             list.Add(setElement);
         }
         SetSelectElements = list;
     }
+
+
 }

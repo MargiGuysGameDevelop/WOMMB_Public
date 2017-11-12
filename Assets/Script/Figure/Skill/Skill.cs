@@ -6,15 +6,15 @@ using System;
 [Serializable]
 [CreateAssetMenu(fileName ="Skill",menuName ="ScriptableObject/Figure/Skill")]
 public class Skill :ScriptableObject {
-    
-    public string SkillName {
-        get { return name; }
-    }
+
+    public string Name;
 
     [HideInInspector]
     public int Index = 0;
 
     public Sprite Icon;
+
+    public string Description;
 
     [Header("暫時性地覆蓋動作。")]
     public AnimatorOverrideController AOC;
@@ -43,4 +43,17 @@ public class Skill :ScriptableObject {
 
     [Header("動作是否自動撥放")]
     public AnimationPlay AnimationPlayType = AnimationPlay.Auto ;
+
+    /// <summary>
+    /// 回傳新的UI資料給UI使用
+    /// </summary>
+    public MyUIElementData NewElementData {
+        get {
+            return new MyUIElementData()
+            {
+                Name = Name,
+                Icon = this.Icon,
+                Content = Description
+            }; }
+    }
 }

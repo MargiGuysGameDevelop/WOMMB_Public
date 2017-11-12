@@ -20,8 +20,8 @@ public class SliderPickElement : MonoBehaviour {
         }
     }
 
-    private MyUIElement myElement;
-    public MyUIElement Element {
+    private MyUIElementData myElement;
+    public MyUIElementData Element {
         set {
             myElement = value;
             imgIcon.sprite = myElement.Icon;

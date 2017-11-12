@@ -36,7 +36,7 @@ public class SliderPicker : MyUnityUI,IDragHandler,IEndDragHandler,IBeginDragHan
     /// <summary>
     /// Data Elements
     /// </summary>
-    protected MyUIElement[] elements;
+    protected MyUIElementData[] elements;
 
     /// <summary>
     /// Set Elements of one rol.
@@ -44,7 +44,7 @@ public class SliderPicker : MyUnityUI,IDragHandler,IEndDragHandler,IBeginDragHan
     /// <param name="_rol"></param>
     /// <param name="_eles"></param>
     /// <returns></returns>
-    public bool Elements(MyUIElement[] _eles) {
+    public bool Elements(MyUIElementData[] _eles) {
         elements = _eles;
         return true;
     }

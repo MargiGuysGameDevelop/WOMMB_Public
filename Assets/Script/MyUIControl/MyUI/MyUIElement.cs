@@ -7,7 +7,7 @@ using UnityEngine;
 /// <summary>
 /// 顯示至UI的自訂資料類別
 /// </summary>
-public class MyUIElement
+public class MyUIElementData
 {
     public Sprite Icon;
     public string Name;

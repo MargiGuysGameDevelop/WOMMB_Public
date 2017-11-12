@@ -23,14 +23,14 @@ public class MyUIFigureState : MyUnityUIGroup,FigureValueChangeListener {
     /// <summary>
     /// 資料多的時候由此儲存供替補
     /// </summary>
-    private List<MyUIElement> moreBuff = new List<MyUIElement>();
+    private List<MyUIElementData> moreBuff = new List<MyUIElementData>();
 
     /// <summary>
     /// 新增BUFF，回傳該BUFF的位置。
     /// </summary>
     /// <param name="_element"></param>
     /// <returns></returns>
-    public void AddBuff(MyUIElement _element) {
+    public void AddBuff(MyUIElementData _element) {
         int position = 0;
         //尋找陣列
         for (; position < Buffers.Length; position++) {
@@ -57,7 +57,7 @@ public class MyUIFigureState : MyUnityUIGroup,FigureValueChangeListener {
         }    
     }
 
-    public void DeleteBuff(MyUIElement _element) {
+    public void DeleteBuff(MyUIElementData _element) {
         int position = 0;
         for (;position<Buffers.Length ;position++) {
             if (ElementsUI[position].Element == _element) {

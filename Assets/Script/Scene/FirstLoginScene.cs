@@ -7,6 +7,13 @@ public class FirstLoginScene : MyScene
     public FirstLoginScene(MySceneControl _control) : base(_control)
     {
         GameLogicManager.Instance.ShowFirstLoginUI();
+        //按下開始按鈕則開始遊戲
+        GameLogicManager.Instance.FirstLoginUI.BtnStartGame.OnClickEvent
+            = (_no, _no2) =>
+            {
+                sceneController.ChangeScene(new GonGonVillageScene(sceneController));
+            };
+
     }
 
     public override void Exit()

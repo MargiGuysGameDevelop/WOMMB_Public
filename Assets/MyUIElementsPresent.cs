@@ -2,8 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// UI列表管理者
+/// 使用前先指定ParentREctTransform(父物件，最好與Scroller底下的Content搭配)
+/// 之後再指定含UIElementPresent的Base為樣本
+/// 指定Type後開始指定Elements
+/// </summary>
 public class MyUIElementsPresent : MonoBehaviour {
-
+    /// <summary>
+    /// 決定列表的擴充方式
+    /// </summary>
     public enum UITrans {
         ///UI元件往Y軸延伸
         ExpandY,
@@ -19,7 +27,6 @@ public class MyUIElementsPresent : MonoBehaviour {
         Fixed
     }
 
-    protected List<MyUIElement> myElements;
 
     public UITrans Type = UITrans.ExpandBoth;
 
@@ -31,7 +38,13 @@ public class MyUIElementsPresent : MonoBehaviour {
 
     public List<MyUIElementPresent> MyUIElements = new List<MyUIElementPresent>();
 
-    public List<MyUIElement> Elements {
+    protected List<MyUIElementData> myElements;
+
+    /// <summary>
+    /// 直接變動整個Elements
+    /// 通常用於初始化UI
+    /// </summary>
+    public List<MyUIElementData> Elements {
         set {
             if (value == null || value.Count == 0)
                 return;
@@ -104,5 +117,16 @@ public class MyUIElementsPresent : MonoBehaviour {
             Base.SetActive(false);
         }
     }
-        
+
+    /// <summary>
+    /// 遊戲進行中更改資料，如指向的位置比原先資料量數還多則直接忽略
+    /// </summary>
+    /// <param name="_index"></param>
+    /// <param name="_newElement"></param>
+    public void ChangeElement(int _index,MyUIElementData _newElement) {
+        if (myElements.Count > _index) {
+            return;
+        }
+        MyUIElements[_index].Element = _newElement;
+    }
 }

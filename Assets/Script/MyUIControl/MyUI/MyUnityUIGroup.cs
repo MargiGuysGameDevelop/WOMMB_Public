@@ -10,6 +10,7 @@ using UnityEditor;
 /// 一個UI功能的基礎，通常會掛在該功能最上層的物件上，
 /// 包含底下所有的MyUnityUI以利事件存取及管理。
 /// 繼承此類別並掛在Prefab上後撰寫新的UIControl邏輯。
+/// 
 /// </summary>
 public class MyUnityUIGroup : MonoBehaviour
 {

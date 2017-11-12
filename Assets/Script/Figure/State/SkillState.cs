@@ -18,7 +18,7 @@ class SkillState : FigureState
         //如有動作則將AOC覆蓋並執行動作，無則直接切換成一般動作
         if (skill.AOC == null) {
             Figure.ChangeState(FigureStateEnum.NormalState);
-            throw new Exception("技能:" + skill.SkillName + "沒AOC，再去檢查一下");
+            throw new Exception("技能:" + skill.Name + "沒AOC，再去檢查一下");
         }
         //將覆蓋動作保存下來以備不時之需
         orginAOC = Figure.Behavior.Animator.runtimeAnimatorController;

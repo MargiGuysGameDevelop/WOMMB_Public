@@ -87,9 +87,9 @@ public class MeatBallSet : ScriptableObject
         Glove.FindPartsFormFile(SetGameObject);
     }
 
-    public MyUIElement NewElement {
+    public MyUIElementData NewElement {
         get {
-            return new MyUIElement()
+            return new MyUIElementData()
             {
                 Name = this.Name,
                 Icon = this.Icon,

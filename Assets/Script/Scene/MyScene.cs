@@ -5,7 +5,7 @@ using System.Text;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public abstract class MyScene
+public abstract class MyScene: MySceneLifeCycle
 {
     protected GameMaster gm;
 

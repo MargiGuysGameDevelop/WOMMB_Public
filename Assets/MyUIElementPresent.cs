@@ -11,12 +11,15 @@ public class MyUIElementPresent : MonoBehaviour {
     public Text Content;
     public MyUnityUI Btn;
 
-    MyUIElement element;
+    MyUIElementData element;
 
-    public MyUIElement Element {
+    public MyUIElementData Element {
         set {
             element = value;
-            if(Title!=null)
+            Body.SetActive(element != null);
+            if (element == null)
+                return;
+            if (Title!=null)
                 Title.text = value.Name;
             if(Icon != null)
                Icon.sprite = value.Icon;
@@ -36,6 +39,15 @@ public class MyUIElementPresent : MonoBehaviour {
             if (rect == null)
                 rect = GetComponent<RectTransform>();
             return rect;
+        }
+    }
+
+    private GameObject myGameObject;
+    public GameObject Body {
+        get {
+            if (myGameObject == null)
+                myGameObject = gameObject;
+            return myGameObject;
         }
     }
 

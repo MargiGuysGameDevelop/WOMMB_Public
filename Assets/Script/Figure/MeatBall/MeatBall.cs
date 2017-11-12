@@ -150,7 +150,7 @@ public class MeatBall : Figure
             MeatBallSetFactory.Instance.RecyclePart(GetSetPartByEnum(_type));
         }
         //資料
-
+        _part.ReuseGameObject();
         //技能
         Skill newSkill = _part.Skill;
         skills[(int)_type] = newSkill;
