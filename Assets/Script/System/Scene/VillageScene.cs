@@ -11,6 +11,7 @@ class VillageScene : MyScene
 {
     public VillageScene(MySceneControl _con) : base(_con)
     {
+
     }
 
     public override void Exit()
@@ -25,7 +26,8 @@ class VillageScene : MyScene
 
     public override void Start()
     {
-        //GameLogicManager.Instance.CheckCamera();
+        //看向主角
+        GameLogicManager.Instance.CameraLookMain();
     }
 
     public override void Update()

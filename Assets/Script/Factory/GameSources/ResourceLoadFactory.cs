@@ -16,7 +16,7 @@ class ResourceLoadFactory : LoadFactory
 
     public override GameObject LoadGameObject(string _name)
     {
-        return LoadGameObject("",_name);
+        return LoadGameObject(_name,"");
     }
 
     public override GameObject LoadGameObject(string _name, params string[] _path)
@@ -34,9 +34,6 @@ class ResourceLoadFactory : LoadFactory
     }
     public override T LoadObject<T>(string _name, params string[] _path)
     {
-        if (_name == "Login") {
-            Debug.Log("!");
-        }
         if (gameObjectPool.ContainsKey(_name))
         {
             try

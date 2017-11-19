@@ -14,12 +14,21 @@ public class MyCamara : MonoBehaviour
     public Transform targetTransform;
 
     protected Transform myTransform;
+    public Transform Transform
+    {
+        get {
+            if (myTransform == null)
+                myTransform = transform;
+            return myTransform;    
+        }
+    }
 
     public Figure Figure {
         set {
             myFigure = value;
+            if (myFigure == null)
+                return;
             targetTransform = myFigure.Behavior.Transform;
-            myTransform = transform;
         }
     }
 
@@ -42,8 +51,8 @@ public class MyCamara : MonoBehaviour
         if (myFigure == null)
             return;
 
-        myTransform.position = targetTransform.position + Offset;
-        myTransform.LookAt(targetTransform);
+        Transform.position = targetTransform.position + Offset;
+        Transform.LookAt(targetTransform);
         
     }
     /// <summary>
@@ -56,10 +65,16 @@ public class MyCamara : MonoBehaviour
         if (cam == null) {
             cam = Instantiate(LoadFactory.Instance.LoadGameObject("Camera")).GetComponent<Camera>();
         }
+        cam.gameObject.tag = "MainCamera";
         MyCamara result = cam.GetComponent<MyCamara>();
         if (result == null) {
             result = cam.gameObject.AddComponent<MyCamara>();
         }
         return result;
+    }
+
+    static public void LetCameraExist()
+    {
+        GameObject.DontDestroyOnLoad(FindCamera().gameObject);
     }
 }

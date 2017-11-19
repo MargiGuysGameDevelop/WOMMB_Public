@@ -21,21 +21,6 @@ class ControllerManager : MyUIControl
         }
     }
 
-    /// <summary>
-    /// 相機
-    /// </summary>
-    private MyCamara mainCameraControl;
-    public MyCamara MainMyCamera {
-        get
-        {
-            if (mainCameraControl == null)
-            {
-                mainCameraControl = MyCamara.FindCamera();
-            }
-            return mainCameraControl;
-        }
-    }
-
     FigureSystem myFigureSystem {
         get {
             return mySystem as FigureSystem;

@@ -41,6 +41,11 @@ public class StartScene : MyScene
         //掛上開始遊戲的委派
         GameLogicManager.Instance.LoginUI.Btn_Login.onClick += LoginGame ;
 
+        //將攝影機的目標轉移後
+        //讓攝影機就定位
+        GameLogicManager.Instance.CameraTarget(null);
+        GameLogicManager.Instance.CameraPosition(new Vector3(-1.9f,0.43f, 0.08f));
+        GameLogicManager.Instance.CameraRotation(Quaternion.Euler(new Vector3(-15f,0f,0f)));
 
     }
 
