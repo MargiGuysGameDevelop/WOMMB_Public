@@ -37,13 +37,15 @@ public sealed class GameLogicManager {
 
     //系統(mySystem)類組
     [SerializeField]
-    FigureSystem myFigureSystem;
+    FigureSystem myFigureSystem;            //人物系統
+    SceneSystem mySceneSystem;              //場景系統
+    
 
     //介面(myUIManager)類組
-    ControllerManager myControlManager;
-    PlayerStateGroup myStateManager;
-    LoginUIControl myLoginManager;
-    FirstLoginControl myFirstLoginManager;
+    ControllerManager myControlManager;     //控制UI
+    PlayerStateGroup myStateManager;        //狀態UI
+    LoginUIControl myLoginManager;          //登入UI
+    FirstLoginControl myFirstLoginManager;  //首登UI
 
 
     /// <summary>
@@ -96,11 +98,6 @@ public sealed class GameLogicManager {
 
     //初始化
     public void Start() {
-        //系統
-        myFigureSystem = new FigureSystem();
-
-        //Start
-        myFigureSystem.Start();
 
         //UI
         myControlManager = new ControllerManager();
@@ -111,12 +108,20 @@ public sealed class GameLogicManager {
         myLoginManager.Inject(myFigureSystem);
         myFirstLoginManager = new FirstLoginControl();
         
-
+  
         //Start
         myControlManager.Start();
         myStateManager.Start();
         myLoginManager.Start();
         myFirstLoginManager.Start();
+
+        //系統
+        myFigureSystem = new FigureSystem();
+        mySceneSystem = new SceneSystem();
+
+        //Start
+        myFigureSystem.Start();
+        mySceneSystem.Start();
     }
 
     /// <summary>
@@ -146,7 +151,7 @@ public sealed class GameLogicManager {
                 );
 
             //主攝影機看向它
-            myControlManager.MainMyCamera.Figure = myFigureSystem.Main;
+            mySceneSystem.CameraTarget(_figure);
 
             //顯示狀態
             myStateManager.UnityUI.BindingFigure(myFigureSystem.Main);
@@ -232,5 +237,40 @@ public sealed class GameLogicManager {
             return false;
         mb.SetSet(_set);
         return true;
+    }
+
+    /// <summary>
+    /// 攝影機看向玩家
+    /// </summary>
+    public void CameraLookMain()
+    {
+        mySceneSystem.CameraTarget(myFigureSystem.Main);
+    }
+
+    /// <summary>
+    /// 攝影機目標
+    /// </summary>
+    /// <param name="_figure"></param>
+    public void CameraTarget(Figure _figure)
+    {
+        mySceneSystem.CameraTarget(_figure);
+    }
+
+    /// <summary>
+    /// 設定攝影機位置
+    /// </summary>
+    /// <param name="_position"></param>
+    public void CameraPosition(Vector3 _position)
+    {
+        mySceneSystem.CamaraPosition(_position);
+    }
+
+    /// <summary>
+    /// 設定攝影機旋轉
+    /// </summary>
+    /// <param name="_rotation"></param>
+    public void CameraRotation(Quaternion _rotation)
+    {
+        mySceneSystem.CameraRotation(_rotation);
     }
 }
